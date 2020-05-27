@@ -18,8 +18,16 @@ body{
 
 .principal-news{
     max-width: 1500px;
-    background-color: white;
+    max-height: 100px;
 }
+
+
+
+
+
+
+
+
 
 .content-section {
   min-height: 120px;
@@ -29,7 +37,6 @@ body{
     margin: 0;
     size: 0px;
     background: #f1f1f1;
-    overflow: auto;
     border-radius: 12px;
     padding: 25px 0 600px;
 }
