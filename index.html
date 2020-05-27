@@ -1,81 +1,268 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>NewsWeek</title>
-        <link rel="stylesheet" href="assets/styles/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    </head>
-    
-    <body>
-        <div class="row">
-            <div class="col">
-                <div class="title-section">
-                    <h1>Stacking Sticky Sidebars with Bootstrap 4</h1>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="d-flex justify-content-between header col-12">
+        <div>
+            <img src="assets/images/logo.svg" alt="">
+            <p> 29° Mérida, MX</p>
+            <p>Tue, May 26, 2020</p>
+        </div>
+        <div>
+            <p>LOGIN</p>
+            <button class="btn btn-warning"> <b>ADD FREE TRIAL</b></button>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav justify-content-center ">
+            <li><a class="nav-link" href="https://www.newsweek.com/us">US</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/world">World</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/business">BusIness</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/tech-science">Tech&Science</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/culture">Culture</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/newsgeek">Newsgeek</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/sports">Sports</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/health">Health</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/the-debate">Debate</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/vantage">Vantage</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.newsweek.com/weather">Weather</a></li>
+            <div></div>
+        </ul>
+    </nav>
+    <hr>
+
+
+    <article class="first-article">
+        <div class="container-fluid principal-news">
+            <div class="row">
+
+
+                <!-- TOP STORY-->
+                <div class="col-lg-6 order-lg-2
+                            col-md-6 order-md-2
+                            col-sm-12 order-sm-1">
+
+                    <div class="content-section">
+                        <h2>TOP STORY</h2>
+                        <section>
+                            <article>
+                                <img class="w-100" src="assets/images/column2-img1.jpg" alt="Donald Trump">
+                                <h3><b>Disapproval of Donald Trump Climbs As U.S. Coronavirus Deaths Near 100,000</b>
+                                </h3>
+                                <p>A presidential approval rating tracker put Trump's average disapproval rating at more
+                                    than 53
+                                    percent on Monday.</p>
+                            </article>
+                        </section>
+
+                        <div class="hide-sm">
+                            <h2>HEROES OF THE PANDEMIC</h2>
+                            <section class="d-flex flex-row row heroes-section">
+                                <article class="d-flex flex-column col">
+                                    <img src="assets/images/column2-img2.jpg" alt="">
+                                    <h3 class="m-4 font-weight-normal h6">The Doctors and Nurses Crossing the Border
+                                        Daily to Help Asylum Seekers</h3>
+                                </article>
+                                <article class="d-flex flex-column col">
+                                    <img src="assets/images/column2-img3.jpg" alt="">
+                                    <h3 class="m-4 font-weight-normal h6">The Charity Helping Vulnerable Holocaust
+                                        Survivors During the Pandemic</h3>
+                                </article>
+                                <article class="d-flex flex-column col">
+                                    <img src="assets/images/column2-img4.jpg" alt="">
+                                    <h3 class="m-4 font-weight-normal h6">Women Launch Campaign Urging People to Donate
+                                        Their Stimulus Checks</h3>
+                                </article>
+                            </section>
+                            <h2>CULTURE & TRAVEL</h2>
+                            <section class="heroes-section row">
+                                <article class="d-flex flex-column col">
+                                    <img src="assets/images/column2-img5.jpg" alt="">
+                                    <h3>The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</h3>
+                                </article>
+                                <article class="d-flex flex-column col">
+                                    <img src="assets/images/column2-img6.jpg" alt="">
+                                    <h3>The Charity Helping Vulnerable Holocaust Survivors During the Pandemic</h3>
+                                </article>
+                                <article class="d-flex flex-column col">
+                                    <img src="assets/images/column2-img7.jpg" alt="">
+                                    <h3>Women Launch Campaign Urging People to Donate Their Stimulus Checks</h3>
+                                </article>
+                            </section>
+                            <h2>MORE STORIES </h2>
+                            <section class="heroes-section">
+                                <article class="d-flex flex-row p-2">
+                                    <img src="assets/images/column2-img5.jpg" alt="">
+                                    <h3>The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</h3>
+                                </article>
+                                <article class="d-flex flex-row p-2">
+                                    <img src="assets/images/column2-img6.jpg" alt="">
+                                    <h3>The Charity Helping Vulnerable Holocaust Survivors During the Pandemic</h3>
+                                </article>
+                                <article class="d-flex flex-row p-2">
+                                    <img src="assets/images/column2-img7.jpg" alt="">
+                                    <h3>Women Launch Campaign Urging People to Donate Their Stimulus Checks</h3>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
                 </div>
+                <!-- FEATURED STORIES-->
+                <div class="col-lg-3 order-lg-1
+                            col-md-6 order-md-1
+                            col-sm-12 order-sm-2">
+
+                    <section class="sidebar-item">
+                        <h2>FEATURED STORIES</h2>
+                        <article>
+                            <img class="w-100" src="assets/images/column1-img1.jpg"
+                                alt="House to Extend Small-business">
+                            <h3><b>House to Extend Small-Business Loan Aid, Restore Government Spy Powers</b></h3>
+                            <p>The votes will mark the first time in American history that members will not have to be
+                                physically present on the floor for their position to be officially counted.</p>
+                        </article>
+                    </section>
+
+                    <section class="sidebar-item">
+                        <article class="make-me-sticky">
+                            <img class="w-100" src="assets/images/column1-img2.jpg" alt="World organizacion coronaviruz">
+                            <h3><b>World Health Organization Says Coronavirus Cases 'Still On The Way Up'</b></h3>
+                            <p>"Right now, we're not in the second wave. We're right in the middle of the first wave
+                                globally," said WHO's Executive Director of Emergencies, Dr. Michael Ryan, during a news
+                                conference on Monday.</p>
+                        </article>
+                    </section>
+
+                    <section class="sidebar-item">
+                        <article class="make-me-sticky">
+                            <img class="w-100" src="assets/images/column1-img3.jpg" alt="Yelling Black Man pinned">
+                            <h3><b>Black Man Pinned Down by Minneapolis Cop, Yelling 'I Cannot Breathe'</b></h3>
+                            <p>"You're a tough guy? A tough guy, huh?" the white police officer can be heard saying in a
+                                video of the incident.</p>
+                        </article>
+                    </section>
+                    <section class="sidebar-item">
+                        <article class="make-me-sticky">
+                            <img class="w-100" src="assets/images/column1-img4.jpg" alt="Yelling Black Man pinned">
+                            <h3><b>Black Man Pinned Down by Minneapolis Cop, Yelling 'I Cannot Breathe'</b></h3>
+                            <p>"You're a tough guy? A tough guy, huh?" the white police officer can be heard saying in a
+                                video of the incident.</p>
+                        </article>
+                    </section>
+                </div>
+                <!-- THE DEBATE-->
+                <div class="col-lg-3 order-lg-3
+                            col-md-12 order-md-3
+                            col-sm-12 order-sm-3">
+                    <section class="sidebar-item2">
+                        <div>
+                            <h2>THE DEBATE</h2>
+                        <div class="media p-3">
+                            <img src="assets/images/column3-img1.png" alt="John Doe" class="mr-2 mt-3 rounded-circle" style="width:60px;">
+                            <div class="media-body">
+                                <h4>Capitalism Creates Social Justice
+                                    <small>BY</small>
+                                    <span>DINESH D'SOUZA</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="media p-3 flex-row-reverse">
+                            <img src="assets/images/column3-img2.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                            <div class="media-body">
+                                <h4>Capitalism Creates Social Justice
+                                    <small>BY</small>
+                                    <span>DINESH D'SOUZA</span>
+                                </h4>
+                            </div>
+                        </div>
+                        </div>
+                    </section>
+                    <section class="sidebar-item2">
+                        <article class="make-me-sticky">
+                            <h2>THE OPNINION</h2>
+
+                            <div class="media p-3">
+                                <img src="assets/images/column3-img3.png" alt="John Doe"
+                                    class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                <div class="media-body">
+                                    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                            <div class="media p-3">
+                                <img src="assets/images/column3-img4.png" alt="John Doe"
+                                    class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                <div class="media-body">
+                                    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                            <div class="media p-3">
+                                <img src="assets/images/column3-img5.png" alt="John Doe"
+                                    class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                <div class="media-body">
+                                    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                            <div class="media p-3">
+                                <img src="assets/images/column3-img6.png" alt="John Doe"
+                                    class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                <div class="media-body">
+                                    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                            <div class="media p-3">
+                                <img src="assets/images/column3-img7.png" alt="John Doe"
+                                    class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                <div class="media-body">
+                                    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                            <div class="media p-3">
+                                <img src="assets/images/column3-img8.png" alt="John Doe"
+                                    class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                <div class="media-body">
+                                    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-section">
+                        <h2>Content Section</h2>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </article>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
 
-        <article>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="sidebar-item">
-                            <div>
-                            <h3>Item 1</h3>
-                            </div>
-                        </div>
-                        <div class="sidebar-item">
-                            <div class="make-me-sticky">
-                            <h3>Item 2</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-
-                        <div class="content-section">
-                            <h2>Content Section</h2>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="sidebar-item">
-                            <div>
-                            <h3>Item 1</h3>
-                            </div>
-                        </div>
-                        <div class="sidebar-item">
-                            <div class="make-me-sticky">
-                            <h3>Item 2</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3">
-                        <div class="content-section">
-                            <h2>Content Section</h2>
-                        </div>
-                    </div>
-                    <div class="col-4">
-
-                        <div class="content-section">
-                            <h2>Content Section</h2>
-                        </div>
-                    </div>
-                    <div class="col-3">
-
-                       <div class="content-section">
-                            <h2>Content Section</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </body>
 </html>
