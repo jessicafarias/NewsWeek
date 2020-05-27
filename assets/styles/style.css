@@ -1,11 +1,44 @@
-.content-section {
-  min-height: 1200px;
+body{
+    background-color: #f4f5f6;
+    font-size: 16px;
+}
+.header{
+    background-color:#f72210;
+}
+.container{
+    background-color: white;
 }
 
-.sidebar-section {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+.heroes-section img{
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.principal-news{
+    max-width: 1500px;
+    max-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+.content-section {
+  min-height: 120px;
+}
+
+.first-article{
+    margin: 0;
+    size: 0px;
+    background: #f1f1f1;
+    border-radius: 12px;
+    padding: 25px 0 600px;
 }
 
 .sidebar-item {
@@ -13,58 +46,82 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 25%;
   /* Position the items */
 }
-
-article{
-    margin: 0;
-    size: 0px;
-}
-
 .sidebar-item:nth-child(2) {
+  top: 25%;
+}
+.sidebar-item:nth-child(3) {
   top: 50%;
 }
+.sidebar-item:nth-child(4) {
+  top: 75%;
+}
+
+
+
+/**/
+
+.sidebar-item2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  /* Position the items */
+}
+.sidebar-item2:nth-child(2) {
+  top: 15%;
+}
+/**/
+
+
+
 
 .make-me-sticky {
   position: sticky;
   top: 0;
 }
 
-/* Ignore This, just coloring */
-body {
-  background: #fff;
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sidebar-item {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  }
+  .sidebar-item2 {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  }
 }
 
-article {
-  background: #f1f1f1;
-  border-radius: 12px;
-  padding: 25px 0 600px;
-}
 
-.title-section, .content-section, .sidebar-section {
-  background: #fff;
-}
 
-.title-section {
-  text-align: center;
-  padding: 50px 15px;
-  margin-bottom: 30px;
-}
-
-.content-section h2 {
-  text-align: center;
-  margin: 0;
-  padding-top: 200px;
-}
-
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767.98px) {
+  .hide-sm{
+      display: none;
+  }
 .sidebar-item {
-  text-align: center;
-}
-.sidebar-item h3 {
-  background: gold;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 50px 0 100px;
-  border-bottom: solid 1px #fff;
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  }
+  .sidebar-item2 {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  }
 }
