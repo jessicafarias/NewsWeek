@@ -1,0 +1,70 @@
+.content-section {
+  min-height: 1200px;
+}
+
+.sidebar-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  /* Position the items */
+}
+
+article{
+    margin: 0;
+    size: 0px;
+}
+
+.sidebar-item:nth-child(2) {
+  top: 50%;
+}
+
+.make-me-sticky {
+  position: sticky;
+  top: 0;
+}
+
+/* Ignore This, just coloring */
+body {
+  background: #fff;
+}
+
+article {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 25px 0 600px;
+}
+
+.title-section, .content-section, .sidebar-section {
+  background: #fff;
+}
+
+.title-section {
+  text-align: center;
+  padding: 50px 15px;
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.sidebar-item {
+  text-align: center;
+}
+.sidebar-item h3 {
+  background: gold;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+  border-bottom: solid 1px #fff;
+}
