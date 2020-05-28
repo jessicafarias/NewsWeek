@@ -22,7 +22,12 @@ p{
 /* NAVBAR*/
 nav{
   max-width: 1310px;
+  height: 50px;
   margin: auto;
+}
+.debate-border{
+  border-top: 5px solid #f92859; 
+  border-bottom: 5px solid #1c87fb;
 }
 
 /* HEADER */
@@ -31,6 +36,15 @@ nav{
   min-height: 95px;
   margin: auto;
   background-color:#f72210;
+}
+
+.btn-subscribe{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  width: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000;
 }
 
 .city-country img{
@@ -64,14 +78,22 @@ nav{
 .autorname, span {
   font-size: 0.8em;
 }
-
-.btn-subscribe{
-  font-family: 'Roboto Condensed', sans-serif;
-  font-style: normal;
-  width: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: #000;
+.versus{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  color: aliceblue;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  
+}
+.border-versus{
+  height: 1px;
+  border: 2px double #d9d9d9;
 }
 /*Main*/
 
