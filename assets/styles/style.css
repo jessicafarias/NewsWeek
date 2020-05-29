@@ -124,8 +124,10 @@ nav{
 }
 
 .subscribe-container{
+  max-width: 300px;
   background-color: #f4f5f6;
   border: 1px solid #dbdde0;
+  margin: auto;
 }
 /*Main*/
 
