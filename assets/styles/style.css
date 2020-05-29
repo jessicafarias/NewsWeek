@@ -1,10 +1,9 @@
 body{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 19px;
+  font-size: 22px;
 }
 a{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 21px;
   color: #000;
   font-weight: bold;
 }
@@ -144,5 +143,18 @@ main
 .compact-column img{
   width: 100px;
   object-fit: cover;
+  font-size: 17px!important;
   margin: 0.5em;
 }
+
+.sizelink-22 a{font-size: 22px;}
+.sizelink-17 a{font-size: 17px;}
+.sizelink-18 a{font-size: 18px;}
+.sizelink-20 a{font-size: 20px;}
+.sizelink-24 a{font-size: 24px;}
+.sizelink-16 a{font-size: 16px;}
+
+.sizetext-15 p{font-size: 15px;}
+.sizetext-17 p{font-size: 15px;}
+.sizetext-14 p{font-size: 15px;}
+/* sizelink-22 sizetext-17 */
