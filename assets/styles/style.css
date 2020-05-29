@@ -14,11 +14,38 @@ p{
   line-height: 20px;
   font-weight: normal;
 }
+
+img{
+  cursor: pointer;
+}
+h2{
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+}
+
+.underline-red:hover{
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f92859;
+}
+
+.color-red:hover{
+  color: #f92859;
+  text-decoration: none;
+}
 .principal-logo{
   fill:#f1f1f1;
   width: 128px!important;
 }
-
+.icon-n{
+  -webkit-flex: none;
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
 /* NAVBAR*/
 nav{
   max-width: 1310px;
@@ -93,7 +120,12 @@ nav{
 }
 .border-versus{
   height: 1px;
-  border: 2px double #d9d9d9;
+  border-top: 3px double #d9d9d9;
+}
+
+.subscribe-container{
+  background-color: #f4f5f6;
+  border: 1px solid #dbdde0;
 }
 /*Main*/
 
@@ -110,5 +142,5 @@ main
 .compact-column img{
   width: 100px;
   object-fit: cover;
-  margin: 1em;
+  margin: 0.5em;
 }
