@@ -201,6 +201,7 @@ main
 .sizelink-20 a{font-size: 20px;}
 .sizelink-24 a{font-size: 24px;}
 .sizelink-16 a{font-size: 16px;}
+.sizelink-14 a{font-size: 16px;}
 
 .sizetext-15 p{font-size: 15px;}
 .sizetext-17 p{font-size: 17px;}
@@ -223,4 +224,9 @@ main
     background-color: #f72210;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
+}
+
+footer{
+  max-width: 1310px;
+  margin: auto;
 }
