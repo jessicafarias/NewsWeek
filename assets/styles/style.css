@@ -193,6 +193,9 @@ main
   text-decoration: none;
   color: #000;
 }
+.icon-color:hover{
+  fill: blue;
+}
 
 .sizelink-22 a{font-size: 22px;}
 .sizelink-17 a{font-size: 17px;}
