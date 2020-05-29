@@ -146,6 +146,20 @@ main
   font-size: 17px!important;
   margin: 0.5em;
 }
+.article-magazine img{
+  max-height: 289px;
+  height: 80%;
+  object-fit: cover;
+  object-position: center center;
+}
+.see-features{
+  background-color: rgb(238, 238, 238);
+  padding: 4px;
+}
+.see-features a{
+  text-decoration: none;
+  color: #000;
+}
 
 .sizelink-22 a{font-size: 22px;}
 .sizelink-17 a{font-size: 17px;}
