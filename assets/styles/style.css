@@ -1,14 +1,3 @@
-
-.clearfix {
-  overflow: hidden;
-  background-color: #1c87fb;
-  zoom: 1;
-}
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 .editors-pick{
   margin-top: 70px;
 }
@@ -16,6 +5,14 @@
   min-height: 293px;
   object-fit: cover;
   object-position: center center;
+}
+h2{
+  font-size: 16px;
+  padding-bottom: 0.5em;
+}
+
+.h5{
+  font-size: 24px;
 }
 
 body{
@@ -38,10 +35,7 @@ p{
 img{
   cursor: pointer;
 }
-h2{
-  font-size: 16px;
-  padding-bottom: 0.5em;
-}
+
 
 .underline-red:hover{
   color: #000;
@@ -198,7 +192,9 @@ main
 }
 
 .sizelink-22 a{font-size: 22px;}
-.sizelink-17 a{font-size: 17px;}
+.sizelink-17 a{
+  font-size: 17px;
+  margin: 10px 10px;}
 .sizelink-18 a{font-size: 18px;}
 .sizelink-19 a{font-size: 19px;}
 .sizelink-20 a{font-size: 20px;}
@@ -216,6 +212,7 @@ main
   width: 100px;
 
 }
+
 .header-bottom::before {
     position: relative;
     top: 0;
@@ -229,7 +226,28 @@ main
     border-top: 13px solid #f72210;
 }
 
-footer{
+.subscribe-text{
+  padding: 20px;
+}
+.subscribe-section{
+  background-color: #f4f5f6;
+  width: 80%;
+}
+.subscribe-images{
+  width: 260px;
+  height: 241px;
+  background-color: blue;
+  margin: 20px;
+}
+
+.phone-newsweek{
+  height: 260px;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+}
+
+.footer{
   max-width: 1310px;
   margin: auto;
+  background-color: white;
 }
+
