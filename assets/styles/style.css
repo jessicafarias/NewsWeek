@@ -1,6 +1,4 @@
-.editors-pick{
-  margin-top: 70px;
-}
+
 .image-size img{ 
   min-height: 293px;
   object-fit: cover;
@@ -176,6 +174,7 @@ main
 
 .compact-column img{
   width: 100px;
+  margin-right: 10px;
   object-fit: cover;
   font-size: 17px!important;
 }
@@ -192,25 +191,20 @@ main
 }
 
 .sizelink-22 a{font-size: 22px;}
-.sizelink-17 a{
-  font-size: 17px;
-  margin: 10px 10px;}
+.sizelink-17 a{font-size: 17px;}
 .sizelink-18 a{font-size: 18px;}
 .sizelink-19 a{font-size: 19px;}
 .sizelink-20 a{font-size: 20px;}
 .sizelink-24 a{font-size: 24px;}
 .sizelink-16 a{font-size: 16px;}
 .sizelink-14 a{font-size: 16px;}
-
 .sizetext-15 p{font-size: 15px;}
 .sizetext-17 p{font-size: 17px;}
 .sizetext-14 p{font-size: 14px;}
-/* sizelink-22 sizetext-17 */
 .search-logo{
   background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   background-position: right center;
   width: 100px;
-
 }
 
 .header-bottom::before {
@@ -226,22 +220,36 @@ main
     border-top: 13px solid #f72210;
 }
 
-.subscribe-text{
-  padding: 20px;
-}
 .subscribe-section{
   background-color: #f4f5f6;
-  width: 80%;
 }
 .subscribe-images{
-  width: 260px;
+  position: relative;
+  z-index: 1;
+  min-width: 280px;
   height: 241px;
-  background-color: blue;
-  margin: 20px;
+}
+
+.subscribe-images img{
+  width: 170px;
+  height: 227px;
+}
+
+.cover1{
+  position: absolute;
+  z-index: 2; 
+  left: 0;
+  top: 0;
+}
+.cover2{
+  position: absolute;
+  z-index: 3;
+  left: 80px;
+  top: 10px;
+  
 }
 
 .phone-newsweek{
-  height: 260px;
   background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
 }
 
