@@ -1,8 +1,8 @@
 # Bootstrap project
 
-> This project is a copy of the newsweek website ![website](https://www.newsweek.com/)
+> This project is a copy of the newsweek website [website](https://www.newsweek.com/)
 
-![screenshot](assets\images\screenshot.png)
+![screenshot](/assets/images/screenshot.png)
 
 This web page is developed by HTML5 and CSS only, without using any framework or library.
 
