@@ -4,7 +4,7 @@
 
 ![screenshot](/assets/images/screenshot.png)
 
-This web page is developed by HTML5 and CSS only, without using any framework or library.
+This web page is developed by HTML5, CSS and bootstrap.
 
 ## Built With
 

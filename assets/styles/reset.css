@@ -131,9 +131,9 @@ table {
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: border-box!important;
-  -moz-box-sizing: border-box!important;
-  box-sizing: border-box!important;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
