@@ -1,37 +1,73 @@
-# Positioning and Floating Elements
+# Bootstrap project
 
-> This project assigment is to copy of newsweek website
-Url: https://www.newsweek.com/
+> This project is a copy of the newsweek website ![website](https://www.newsweek.com/)
 
-    This project goal is to understand and aply bootstrap
+![screenshot](assets\images\screenshot.png)
+
+This web page is developed by HTML5 and CSS only, without using any framework or library.
+
+## Built With
+
+- HTML5
+- CSS
+- Bootstrap
+- Stylelint and stickler for linting purpose
+- html-validator-cli for validate HTML
+- Mort
 
 ## Requirements:
 
 - Use bootstrap
 
-## Built With
-
-- CSS
-- HTML
-- Bootstrap
-
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jessicafarias/NewsWeek/version1/index.html)
-
+-  [Live Demo Link](https://raw.githack.com/jessicafarias/NewsWeek/version1/index.html)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+**Install on Your Own Machine.**
+**You can skip the linter and HTML validetors setup if you don't want to validate the code**
+
+Setup your machine setup
+
+### Prerequisites
+
+  > All the prerequisites are optional
+
+- Git
+- HTML validator
+- CSS Linters
+- Bootstrap
+
+### Setup
+
+- Follow the link below to install git.
+  > [download git](https://git-scm.com/downloads)
+- Follow the link below to setup HTML validator.
+  > [Setup HTML validator](https://github.com/microverseinc/linters-config/tree/master/html_validator)
+- Follow the link below to setup linter.
+  > [Setup CSS Linter to check code errors](https://github.com/microverseinc/linters-config/tree/master/css#troubleshooting)
+- Clone the repository
+  > To get a local copy up and running follow these simple example steps.
 
 1. Open the terminal comand line window
 2. ``` git clone https://github.com/jessicafarias/NewsWeek.git```
 3. Open the index.html with your favorite browser
 4. Enjoy!
 
+### Install
+
+*Optional*
+Go to the project directory on your terminal and run `npm install` to install the HTML validator and CSS linters
+
+### Usage
+
+Go to the project directory and run open the `index.html` file on your browser.
+
 ## Potential future features
 
 - Adding more effects using CSS to the website
+
 
 ## Authors
 
@@ -50,3 +86,7 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
