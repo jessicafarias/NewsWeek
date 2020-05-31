@@ -193,6 +193,9 @@ main
   text-decoration: none;
   color: #000;
 }
+.icon-color{
+  fill: #666666;
+}
 .icon-color:hover{
   fill: blue;
 }
@@ -213,6 +216,7 @@ main
   background-position: right center;
   width: 100px;
 }
+
 
 .header-bottom::before {
     position: relative;
