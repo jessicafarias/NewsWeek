@@ -4,6 +4,10 @@
 
 ![screenshot](/assets/images/screenshot.png)
 
+> This project is compatible with different devices.
+
+![screenshot](/assets/images/screenshot2.png)
+
 This web page is developed by HTML5, CSS and bootstrap.
 
 ## Built With
