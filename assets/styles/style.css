@@ -1,9 +1,17 @@
 
 .image-size img{ 
-  min-height: 293px;
   object-fit: cover;
   object-position: center center;
+  min-height: 293px;
 }
+
+@media (max-width: 1300px)
+{
+  .image-size img{ 
+    min-height: 10px;
+}
+}
+
 h2{
   font-size: 16px;
   padding-bottom: 0.5em;
@@ -33,7 +41,6 @@ p{
 img{
   cursor: pointer;
 }
-
 
 .underline-red:hover{
   color: #000;
