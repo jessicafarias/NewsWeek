@@ -127,9 +127,9 @@ nav {
 
 /* HEROES SECTION */
 .heroes-section img {
-  padding-bottom: 10px;
-  max-width: 170px;
-  min-height: 170px;
+  max-width: 215px;
+  min-height: 40%;
+  width: 100%;
   object-fit: cover;
   object-position: center center;
 }
