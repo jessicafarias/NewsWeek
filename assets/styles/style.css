@@ -1,3 +1,11 @@
+html {
+  overflow-x: hidden;
+}
+
+img {
+  cursor: pointer;
+}
+
 h2 {
   font-size: 16px;
   padding-bottom: 0.5em;
@@ -101,7 +109,6 @@ nav {
   width: 90px;
   height: 1.5em;
   border-radius: 3px;
-  margin: 7px;
   font-size: 15px;
   color: #000;
 }
@@ -123,7 +130,9 @@ nav {
 
 /* HEROES SECTION */
 .heroes-section img {
-  max-width: 100%;
+  padding-bottom: 10px;
+  max-width: 170px;
+  min-height: 170px;
   object-fit: cover;
   object-position: center center;
 }
@@ -276,6 +285,10 @@ main {
   font-size: 15px;
 }
 
+.sizetext-12 p {
+  font-size: 12px;
+}
+
 .sizelink-17 a {
   font-size: 17px;
 }
@@ -297,6 +310,11 @@ main {
 }
 
 .gray {
+  color: rgb(3, 3, 3, 0.5);
+}
+
+.decoration-none a:hover {
+  text-decoration: none;
   color: rgb(3, 3, 3, 0.5);
 }
 
