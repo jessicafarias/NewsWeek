@@ -33,8 +33,9 @@ p {
 
 .image-size img {
   object-fit: cover;
-  object-position: center center;
+  object-position: top center;
   min-height: 293px;
+  max-height: 450px;
 }
 
 .underline-red:hover {
@@ -97,7 +98,7 @@ nav {
 
 .header-sm {
   background-color: #f72210;
-  max-height: 60px;
+  max-height: 45px;
 }
 
 .btn-subscribe {
@@ -110,6 +111,10 @@ nav {
   color: #000;
 }
 
+.city-country {
+  min-width: 250px;
+}
+
 .city-country img {
   max-height: 24px;
   object-fit: cover;
@@ -120,11 +125,6 @@ nav {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.weather-arrow {
-  width: 6px;
-  height: 11px;
-}
-
 /* HEROES SECTION */
 .heroes-section img {
   max-width: 215px;
@@ -133,8 +133,6 @@ nav {
   object-fit: cover;
   object-position: center center;
 }
-
-.pindex-1 { z-index: -1; }
 
 /* MORE STORIES SECTION */
 .stories-section img {
@@ -333,4 +331,11 @@ main {
   .image-size img {
     min-height: 10px;
   }
+}
+
+.more-stories img {
+  max-width: 100px;
+  max-height: 100px;
+  object-position: top center;
+  object-fit: cover;
 }
